@@ -43,20 +43,29 @@ For an introduction to the project, you can watch this talk from ElixirConf EU 2
 
 [![LiveData talk at ElixirConf EU 2022](https://img.youtube.com/vi/I4vVxtrow-E/0.jpg)](https://www.youtube.com/watch?v=I4vVxtrow-E)
 
-## Installation
+## Installation 
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `phoenix_data_view` to your list of dependencies in `mix.exs`:
+The package can be installed
+by adding `live_data` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:data_view, "~> 0.1.0"}
+    {:live_data, "~> 0.1.0-alpha1"}
   ]
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/phoenix_data_view](https://hexdocs.pm/phoenix_data_view).
+Then run:
+
+```sh
+mix deps.get
+```
+
+## Docs
+
+Documentation is available at: 
+[hexdocs.pm/live_data](https://hexdocs.pm/live_data).
+
+Feedback welcome!
 
